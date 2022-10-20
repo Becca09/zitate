@@ -1,0 +1,41 @@
+.dashboardBodyContainer {
+    width: inherit;
+    height: 100vh;
+  }
+
+  .dashboard-container{
+    background-color: #C9F2C7;
+  }
+
+
+
+  @media (min-width: 200px) and (max-width: 749px){
+    .dashboardSideNav{
+      display: none;
+    }
+  }
+
+  @media (min-width: 750px) and (max-width: 1024px){
+    .header{
+      display: none;
+    } 
+
+    .dashboard-container {
+      display: flex;
+      width: 100vw;
+    }
+
+  }
+
+  @media (min-width: 1025px) {
+    .dashboard-container {
+      display: flex;
+      width: 100vw;
+    }
+   
+    .header{
+      display: none;
+    }
+
+
+}  

@@ -1,0 +1,60 @@
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theQuote{
+    padding:  3% 10%;
+}
+
+.theQuote p{
+    line-height: 25px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button{
+    background-color: #243119;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+h3{
+    margin-top: 5%;
+    border-top: 1px solid #243119;
+    border-bottom: 1px solid #243119;
+    padding: 2%  0;
+
+}
+
+
+@media (min-width: 200px) and (max-width: 749px){
+    .theQuote p{
+        margin-top: 40%;
+    }
+
+    .buttons button{
+       margin-top: 5%;
+       padding: 3% 7%;
+        
+    }
+}
+
+
+@media (min-width: 1025px){
+    .theQuote p{
+        margin-top: 15%;
+    }
+
+    .buttons button{
+        padding: 1% 5%;
+    }
+
+}

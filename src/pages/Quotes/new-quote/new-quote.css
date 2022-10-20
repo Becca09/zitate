@@ -1,0 +1,104 @@
+.new-quote-form{
+    padding: 5%;
+}
+
+
+.input-quote-body{
+    border: none;
+    color: white;
+    padding: 2% 3%;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.input-body{
+    width: 100%;
+     margin-left: 5%;
+ }
+ 
+ 
+ .submit {
+     margin-left: 5%;
+     padding: 1%  5%;
+     background-color: #243119;
+     color: white;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+ }
+ 
+ 
+ .submit:hover {
+     background-color: white;
+     color:var(--orange);
+     font-weight: bold;
+ }
+ 
+ 
+ .labelStyle p{
+     text-align: left;
+     color: #243119;
+ }
+ 
+ .inputStyle {
+     border: none;
+     border-radius: 5px;
+     color: black;
+     width: 80%;
+     background-color: white;
+ }
+
+
+ @media (min-width: 200px) and  (max-width: 1023px){
+  
+    .inputStyle {
+        padding: 4% 3%;
+    }
+
+    .new-quote-form{
+        margin: 10% 0 ;
+    }
+
+    .input-body{
+         margin-bottom: 10%;
+     }
+
+     .input-quote-body{
+        height: 50vh;
+    }
+
+    .labelStyle p{
+        margin-bottom: 2%;
+    }
+     
+}
+
+
+@media (min-width: 701px) and  (max-width: 1023px){
+   
+}
+
+@media (min-width: 1024px){
+    .inputStyle {
+        padding: 2% 3%;
+    }
+
+    .new-quote-form{
+        margin: 2% 0 ;
+    }
+
+    .input-body{
+         margin-bottom: 2%;
+     }
+     
+
+     .input-quote-body{
+        height: 30vh;
+    }
+    
+}
+
+
+ 
